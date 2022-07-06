@@ -24,7 +24,7 @@ public class client
 
         // a non-stop loop to continue monitor the prices of some items
         while (true){
-            Scanner scan = new Scanner(new FileReader("Price Test.txt"));		// scan the text file
+            Scanner scan = new Scanner(new FileReader("Price Test.txt"));		// scan the text file (User input should be put into text file)
             while (scan.hasNext()){
                 urlString = scan.next ();										// read the webling from the textfile
                 System.out.println ("WebLink: " + urlString);					// print the weblink
