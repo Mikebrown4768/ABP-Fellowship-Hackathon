@@ -4,10 +4,12 @@ import javax.mail.*;
 import javax.mail.internet.*;
 import java.util.*;
 
-public class Main
+public class Client
 {
-    public static void main(String args[]) throws Exception
-    {
+    public static void main(String[] args) throws Exception{
+
+
+
         String inputLine = null;				// define the input stream
         String priceString = null;				// define for reading price from textfile
         String priceThresholdString = null;		// define the prce threshold
